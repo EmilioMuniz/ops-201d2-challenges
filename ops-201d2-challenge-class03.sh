@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Login History                       
-# Emilio Muniz                      
-# 01/27/2021      
+# Script:                ops-201d2-challenge-class03                       
+# Author:                Emilio Muniz                      
+# Date of last revision: 1/28/2021      
 # Print Login History      
 
 # Declaration of variables
@@ -12,4 +12,7 @@ loginhistory="last"
 print_loginhistory () {
   $loginhistory
 }
+# Main
 print_loginhistory
+
+#End
