@@ -5,8 +5,11 @@
 # 01/27/2021      
 # Print Login History      
 
+# Declaration of variables
+loginhistory="last"
+
 # Basic function
 print_loginhistory () {
-  last
+  $loginhistory
 }
 print_loginhistory
