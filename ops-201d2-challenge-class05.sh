@@ -25,9 +25,10 @@ do
     
 done
 read -p "Enter PID"
+
 echo All done
 
 #Main
 
-# resources: https://linuxhandbook.com/bash-arrays/ 
+# resources: https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php 
 #End
