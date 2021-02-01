@@ -23,6 +23,7 @@ echo -e "\nPlease enter ip address:"
 read var_a
 open_ports
 echo 'All Done'
-# resources: https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php
+# resources: https://linuxize.com/post/check-listening-ports-linux/ 
+#            https://www.dnsstuff.com/scan-network-for-device-ip-address
 
 #End
