@@ -18,7 +18,7 @@ open_ports() {
 
 
 #Main
-arp -a
+netstat -tunlp
 echo -e "\nPlease enter ip address:"
 read var_a
 open_ports
