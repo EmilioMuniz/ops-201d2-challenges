@@ -14,8 +14,7 @@
 #Main
 echo Name of Computer:
 hostname
-echo CPU:
-sudo lshw -sanitize | grep -A 6 "computer"
+echo "CPU: "$(sudo lshw -sanitize | grep -A 5 "*-cpu")
 echo RAM:
 sudo lshw -sanitize | grep -A 3 "*-memory"
 echo Display Adapter:
