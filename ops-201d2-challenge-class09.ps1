@@ -16,7 +16,7 @@ Get-EventLog -LogName System -EntryType Error > "error.txt"
 
 Get-EventLog -LogName System -InstanceId 16
 
-Get-EventLog -LogName System -Newest 20
+Get-EventLog -LogName System -Newest 500
 
 $Events | Group-Object -Property Source
 
