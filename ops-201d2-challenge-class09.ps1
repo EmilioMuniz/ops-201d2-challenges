@@ -1,6 +1,6 @@
 # Script:                   ops-201d2-challenge-class09.ps1                       
 # Author:                   Emilio Muniz                       
-# Date of latest revision:  2/04/2021    
+# Date of latest revision:  2/08/2021    
 # Purpose:                  Use Powershell to fetch Event Logs.
 
 #Declaration of variables
@@ -16,11 +16,10 @@ Get-EventLog -LogName System -EntryType Error > "error.txt"
 
 Get-EventLog -LogName System -InstanceId 16
 
-Get-EventLog -LogName System -Newest 500
+Get-EventLog -LogName System -Newest 20
 
-$Events | Group-Object -Property Source
-
-$Events | Group-Object -Property Source | Out-String -Width 240
+$Events = Get-EventLog -LogName System -Newest 500
+$Events | Group-Object -Property Source -NoElement | Format-Table -AutoSize
 
 #Resources: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-eventlog?view=powershell-5.1
 
