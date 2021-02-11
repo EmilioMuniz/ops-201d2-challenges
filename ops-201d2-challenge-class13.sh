@@ -19,7 +19,9 @@ domain_info(){
 echo "Please enter domain name:"
 read var_a
 domain_info > "DNI.txt"
+libreoffice --cat DNI.txt
 
-#Resources: 
+#Resources:https://askubuntu.com/questions/659741/how-to-open-a-file-with-libreoffice-writer-from-terminal 
+#https://canvas.instructure.com/courses/2498321/assignments/20352742?module_item_id=42421251
 
 #End 

@@ -17,7 +17,7 @@
    Name Server: NS70.DOMAINCONTROL.COM
    DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2021-02-11T04:49:19Z <<<
+>>> Last update of whois database: 2021-02-11T05:22:27Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -79,7 +79,7 @@ Name Server: NS69.DOMAINCONTROL.COM
 Name Server: NS70.DOMAINCONTROL.COM
 DNSSEC: unsigned
 URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2021-02-11T04:49:28Z <<<
+>>> Last update of WHOIS database: 2021-02-11T05:22:38Z <<<
 
 For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en
 
@@ -101,7 +101,7 @@ at any time without notice.
 ; <<>> DiG 9.16.6-Ubuntu <<>> emiliomuniz.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20239
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54718
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -112,14 +112,14 @@ at any time without notice.
 ;; ANSWER SECTION:
 emiliomuniz.com.	600	IN	A	104.156.81.119
 
-;; Query time: 35 msec
+;; Query time: 43 msec
 ;; SERVER: 127.0.0.53#53(127.0.0.53)
-;; WHEN: Thu Feb 11 04:49:28 UTC 2021
+;; WHEN: Thu Feb 11 05:22:38 UTC 2021
 ;; MSG SIZE  rcvd: 60
 
 emiliomuniz.com has address 104.156.81.119
-emiliomuniz.com mail is handled by 10 mailstore1.secureserver.net.
 emiliomuniz.com mail is handled by 0 smtp.secureserver.net.
+emiliomuniz.com mail is handled by 10 mailstore1.secureserver.net.
 Server:		127.0.0.53
 Address:	127.0.0.53#53
 
