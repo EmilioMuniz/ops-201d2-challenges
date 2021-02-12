@@ -1,6 +1,6 @@
 # ops-201d2-challenges
 Desription:
-This repository is a collection of scripts that I was tasked to write during my Ops 201 course at Code Fellows. Each day of class we were given a challenge to write a script utilizing different Linux, Bash, and Powershell languages.
+This repository is a collection of scripts that I was tasked to write during my Ops 201 course at Code Fellows. Each day of class we were given a challenge to write a script utilizing different Bash, and Powershell languages.
 
 Purpose:
 Learning these languages and how to execute their commands is essential in Computer Operations and Cyber Security. This skill set will work as a foundation while I traverse through my career path. The fundamental concepts behind these challenges were using scripts to make jobs easier, being well versed in different languages, and embracing automation.
